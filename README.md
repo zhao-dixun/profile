@@ -45,14 +45,14 @@ defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 * key map
 ```
 [
-	{ "keys": ["super+k", "super+u"], "command": "" },
-	{ "keys": ["super+k", "super+l"], "command": "" },
+    { "keys": ["super+k", "super+u"], "command": "" },
+    { "keys": ["super+k", "super+l"], "command": "" },
 
-	{ "keys": ["super+shift+x"], "command": "upper_case" },
-	{ "keys": ["super+shift+c"], "command": "lower_case" },	
+    { "keys": ["super+shift+x"], "command": "upper_case" },
+    { "keys": ["super+shift+c"], "command": "lower_case" }, 
 
 
-	{ "keys": ["ctrl+shift+down"], "command": "" },
-	{ "keys": ["ctrl+v"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+down"], "command": "" },
+    { "keys": ["ctrl+v"], "command": "select_lines", "args": {"forward": true} },
 ]
 ```
