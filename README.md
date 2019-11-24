@@ -27,9 +27,13 @@ ssh -T git@github.com
 
 ## Visual Studio Code ##
 
-## Sublime Text 3 ##
+* [vs code](https://code.visualstudio.com)
 
-* package control
+## Sublime Text ##
+
+* [sublime test](http://www.sublimetext.com)
+
+* [package control](https://github.com/wbond/package_control)
 
 * os x
 
