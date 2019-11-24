@@ -7,7 +7,7 @@ profile for me
 - rsa key pair
 
 ```bash
-ssh-keygen -t rsa -C "dixun.zhao@qq.com" -f ~/.ssh/github_rsa
+    ssh-keygen -t rsa -C "dixun.zhao@qq.com" -f ~/.ssh/github_rsa
 ```
 
 - ssh config
@@ -22,7 +22,7 @@ ssh-keygen -t rsa -C "dixun.zhao@qq.com" -f ~/.ssh/github_rsa
 - ssh github.com
 
 ```bash
-ssh -T git@github.com
+    ssh -T git@github.com
 ```
 
 ## Visual Studio Code
@@ -38,7 +38,7 @@ ssh -T git@github.com
 - os x
 
 ```bash
-defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
+    defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 ```
 
 - settings

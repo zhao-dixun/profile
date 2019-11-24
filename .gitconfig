@@ -1,34 +1,34 @@
 [core]
-	autocrlf = input
+    autocrlf = input
 
 [alias]
-	st = status -s -u
-	co = checkout
-	df = diff --no-ext-diff
-	dl = diff --no-ext-diff HEAD~1 HEAD
-	ci = commit
-	br = branch
-	po = push origin
-	ps = push
-	pl = pull
+    st = status -s -u
+    co = checkout
+    df = diff --no-ext-diff
+    dl = diff --no-ext-diff HEAD~1 HEAD
+    ci = commit
+    br = branch
+    po = push origin
+    ps = push
+    pl = pull
 
 [color]
-	ui = true
+    ui = true
 
 [color "status"]
-	added = 121
-	changed = bold 222
-	untracked = bold 141
+    added = 121
+    changed = bold 222
+    untracked = bold 141
 
 [push]
-	default = simple
+    default = simple
 
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 
 [user]
-	name = dixun-zhao
-	email = dixun.zhao@qq.com
+    name = dixun-zhao
+    email = dixun.zhao@qq.com
