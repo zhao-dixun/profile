@@ -41,3 +41,18 @@ import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe0
 ```
 defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 ```
+
+* key map
+```
+[
+	{ "keys": ["super+k", "super+u"], "command": "" },
+	{ "keys": ["super+k", "super+l"], "command": "" },
+
+	{ "keys": ["super+shift+x"], "command": "upper_case" },
+	{ "keys": ["super+shift+c"], "command": "lower_case" },	
+
+
+	{ "keys": ["ctrl+shift+down"], "command": "" },
+	{ "keys": ["ctrl+v"], "command": "select_lines", "args": {"forward": true} },
+]
+```
