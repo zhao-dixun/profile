@@ -1,16 +1,16 @@
-# profile #
+# profile
 
 profile for me
 
-## SSH keys ##
+## SSH keys
 
-* rsa key pair
+- rsa key pair
 
 ```bash
 ssh-keygen -t rsa -C "dixun.zhao@qq.com" -f ~/.ssh/github_rsa
 ```
 
-* ssh config
+- ssh config
 
 ```bash
     Host github.com                     # 关键词
@@ -19,50 +19,49 @@ ssh-keygen -t rsa -C "dixun.zhao@qq.com" -f ~/.ssh/github_rsa
         IdentityFile ~/.ssh/github_rsa  # 私钥地址
 ```
 
-* ssh github.com
+- ssh github.com
 
 ```bash
 ssh -T git@github.com
 ```
 
-## Visual Studio Code ##
+## Visual Studio Code
 
-* [vs code](https://code.visualstudio.com)
+- [vs code](https://code.visualstudio.com)
 
-## Sublime Text ##
+## Sublime Text
 
-* [sublime test](http://www.sublimetext.com)
+- [sublime test](http://www.sublimetext.com)
 
-* [package control](https://github.com/wbond/package_control)
+- [package control](https://github.com/wbond/package_control)
 
-* os x
+- os x
 
 ```bash
 defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 ```
 
-* settings
+- settings
 
 ```json
 {
-    "font_size": 13,
-    "ignored_packages": [],
-    "vintage_start_in_command_mode": true
+  "font_size": 13,
+  "ignored_packages": [],
+  "vintage_start_in_command_mode": true
 }
 ```
 
-* key map
+- key map
 
 ```json
 [
-    { "keys": ["super+k", "super+u"], "command": "" },
-    { "keys": ["super+k", "super+l"], "command": "" },
+  { "keys": ["super+k", "super+u"], "command": "" },
+  { "keys": ["super+k", "super+l"], "command": "" },
 
-    { "keys": ["super+shift+x"], "command": "upper_case" },
-    { "keys": ["super+shift+c"], "command": "lower_case" },
+  { "keys": ["super+shift+x"], "command": "upper_case" },
+  { "keys": ["super+shift+c"], "command": "lower_case" },
 
-
-    { "keys": ["ctrl+shift+down"], "command": "" },
-    { "keys": ["ctrl+v"], "command": "select_lines", "args": {"forward": true} },
+  { "keys": ["ctrl+shift+down"], "command": "" },
+  { "keys": ["ctrl+v"], "command": "select_lines", "args": { "forward": true } }
 ]
 ```
