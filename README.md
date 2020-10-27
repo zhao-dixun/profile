@@ -7,7 +7,7 @@ profile for me
 - rsa key pair
 
 ```bash
-ssh-keygen -t rsa -C "dixun.zhao@qq.com" -f ~/.ssh/github_rsa
+ssh-keygen -t rsa -C "zhao.dixun@qq.com" -f ~/.ssh/github_rsa
 ```
 
 - [ssh config](.ssh/config)
